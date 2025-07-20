@@ -9,9 +9,10 @@
 # ran = range(1,4)
 # print(ran)
   
-task = input("Input a task description ")
-priority = input("is task priority high, medium, low ")
-time_bound = input("Is task time-bound: yes or no ")
+task = input("Enter your task: ")
+time_bound = input("Is it time-bound? (yes/no): ")
+priority = input("Priority (high/medium/low): ")
+
 
 
 match priority:
