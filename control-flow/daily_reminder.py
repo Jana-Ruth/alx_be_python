@@ -28,3 +28,4 @@ if time_bound == "yes" :
 else:
     print(". Consider completing it when you have free time.")  
     
+print(f"Reminder: You have a '{task}' task with {priority} priority. Time-bound: {time_bound}.")
