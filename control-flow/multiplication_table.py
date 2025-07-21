@@ -1,4 +1,4 @@
-x = 5
+x = int(input("Enter a number to see its multiplication table:"))
 
 
 for number in range(1, 11):
