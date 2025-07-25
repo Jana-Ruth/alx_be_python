@@ -1,8 +1,8 @@
-x = 5
+x = int(input("Enter a number to see its multiplication table:"))
 
 
 for number in range(1, 11):
-    print(x, "*", number, "=", 5*number)
+   print(f"{number} * {x} = {number * x}")
     
 def calculate_area(length, width):
     """Calculates the area of a rectangle."""
