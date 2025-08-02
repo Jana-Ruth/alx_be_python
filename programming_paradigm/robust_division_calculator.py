@@ -1,6 +1,6 @@
 
-numerator = int(input("Enter Numerator: "))
-denominator = int(input("Enter Denominator: "))
+# numerator = int(input("Enter Numerator: "))
+# denominator = int(input("Enter Denominator: "))
 
 def safe_divide(numerator, denominator):
     try:
@@ -14,4 +14,3 @@ def safe_divide(numerator, denominator):
     else:
         print(f"The value of {numerator} divided by {denominator} is = {divide}")
         
-print(safe_divide(numerator, denominator))
