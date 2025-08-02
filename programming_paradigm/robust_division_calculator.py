@@ -6,7 +6,7 @@ def safe_divide(numerator, denominator):
     try:
        divide = float(numerator) / float(denominator)
     except ZeroDivisionError:
-        print("Error! Cannot divide by zero")
+        print("Error: Cannot divide by zero.")
     except ValueError as e:
         print("Error!", e)
     else:
