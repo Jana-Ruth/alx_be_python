@@ -4,7 +4,7 @@ denominator = int(input("Enter Denominator: "))
 
 def safe_divide(numerator, denominator):
     try:
-       divide = numerator / denominator
+       divide = float(numerator) / float(denominator)
     except ZeroDivisionError as e:
         print("Error!", e)
     except ValueError as e:
