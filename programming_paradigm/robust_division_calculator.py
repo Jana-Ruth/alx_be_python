@@ -5,8 +5,8 @@ denominator = int(input("Enter Denominator: "))
 def safe_divide(numerator, denominator):
     try:
        divide = float(numerator) / float(denominator)
-    except ZeroDivisionError as e:
-        print("Error!", e)
+    except ZeroDivisionError:
+        print("Error! Cannot divide by zero")
     except ValueError as e:
         print("Error!", e)
     else:
